@@ -19,3 +19,16 @@ fastapi로 서버를 구동하는 파이썬 파일
 ##### redis_util.py
 redis 데이터베이스와 연동할 수 있게
 하는 파이썬 파일
+
+### 사용된 모듈
+##### requests, bs4
+크롤링 하기 위하여 사용됨
+##### dotenv
+암호화를 위해 사용됨
+.env 파일 내용
+host=[IPv4 주소값]
+ALLOWED_ORIGINS=http://[고정 IP주소값]:3000,http://localhost:3000
+##### redis
+redis 데이터 베이스 연동을 위해 사용됨
+##### fastapi, uvicorn
+fastapi 서버를 열기 위해 사용됨
