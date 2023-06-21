@@ -1,5 +1,5 @@
 ### 굿즈 매장 사이트 크롤링 연습
-유유테이 매장(https://yuyu-tei.jp)을 BeautifulSoup로 크롤링 하여
+유유테이 매장(https://yuyu-tei.jp) 을 BeautifulSoup로 크롤링 하여
 fastapi로 api요청을 할 수 있도록 함
 
 ### Redis DB 사용
